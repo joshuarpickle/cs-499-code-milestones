@@ -1,0 +1,45 @@
+# Mostly generated using ChatGPT (some human help)
+# NOTE:
+# MySQL must be installed and running locally.
+# The MySQL server must be accessible on localhost:3306.
+
+# REQUIRED DATABASES:
+# - Database: aac
+# - Table: animals
+# - Table: users
+
+# REQUIRED USERS:
+# - A MySQL user with permissions to SELECT, INSERT, UPDATE, DELETE
+#   on the `aac` database must exist.
+# - Credentials for this user are configured in:
+#   - CRUD_Python_Module.py
+#   - Users_Python_Module.py
+
+# SCHEMA REQUIREMENTS:
+# - The `animals` table must contain the following columns (with data types):
+#   animal_id (text)
+#   animal_type (text)
+#   breed (text)
+#   sex_upon_outcome (text)
+#   age_upon_outcome_in_weeks (int)
+#   name (text)
+#   location_lat (double)
+#   location_long (double)
+#
+# - Column names and data types must match exactly.
+# - Additional columns may exist but will be ignored by the dashboard.
+
+# CHARACTER SET:
+# - The database and tables should use utf8mb4 encoding.
+
+# DATA:
+# - The `animals` table must contain data for the dashboard to display results.
+
+# AUTHENTICATION:
+# - The `users` table must contain:
+#   username (PRIMARY KEY or UNIQUE)
+#   password (hashed using Werkzeug)
+
+# IMPORTANT:
+# - Unlike MongoDB, MySQL does NOT auto-create schemas.
+# - Databases and tables must be created manually before running the app.
