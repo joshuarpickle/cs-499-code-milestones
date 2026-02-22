@@ -1,4 +1,0 @@
-# Generated using ChatGPT
-# NOTE:
-# MongoDB must be installed and running locally.
-# Databases and collections are created automatically on first insert.

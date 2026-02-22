@@ -1,4 +1,0 @@
-INFO:dash.dash:Dash is running on http://127.0.0.1:8050/
-
-ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
-WARNING:Comm:No such comm: 2f26f50e-35a7-4702-b071-11ba4db97eef
